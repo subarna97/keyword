@@ -1,0 +1,17 @@
+<!-- <form action="counter">
+
+    <label> Your articale </label><br>
+        <textarea type="text" name="text"></textarea><br><br>
+        <input type="submit"></button>
+
+
+</form> -->
+
+<h1> word counter</h1>
+
+<form action="{% url 'counter' %}">
+    <textarea cols="40" rows="10" name="fulltext"></textarea><br>
+    <input type="submit" value="Count!" />
+
+
+</form>
